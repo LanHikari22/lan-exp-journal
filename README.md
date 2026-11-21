@@ -19,40 +19,29 @@
 </div>
 <br>
 
-> NOTE
-> This repository is for works that don't make it to the [deltachives](https://github.com/deltachives) organization instead.
->
-
-- [What is this?](#what-is-this)
+- [What?](#what)
 - [Folder Structure](#folder-structure)
-  - [Scripts](#scripts)
-  - [Files](#files)
-  - [Templates](#templates)
-  - [Examples](#examples)
 - [Contributing](#contributing)
 - [License](#license)
 
+# What?
 
-# What is this?
+This is a space for experiment code organized in a weekly journal, so it can allow many
+little explorations across time.
 
-I store experimental/temporary scripts I write in this repository. It provides versioning and a public reference for them.
+It is on codeberg: https://codeberg.org/lan22h-experiments/lan-exp-journal/
 
-Micro projects and experimental files go here that might not need to have their own repository. 
+It has a mirror on github: https://github.com/LanHikari22/lan-exp-journal
 
-If they become significant, then they move to their own repositories.
+Significant projects could warrant their own repository elsewhere. For example:
+- https://codeberg.org/lan22h-experiments/
+- https://github.com/deltachives
 
-# Encoding
+# Folder structure
 
-The new naming scheme as of year 2026 is {category}/{YYYY}/{NNN}-{ProJName} where NNN is an index incrementing from 000 for the latest added.
-
-# Folder Structure
-
-- Microprojects is for standalone projects that shouldn't take too much work, they may be for a single visualization goal for example. 
-  These may also correspond to microproject notes in the [delta-trace](https://github.com/deltatraced/delta-trace/tree/webview) repository.
-- Templates are for repeating chunks of code or other artifacts.
-- Scripts are primarily for tooling related scripting.
-- Examples contain reproductions and how-to demonstrations.
-- Files, a catch-all category. May include some temporary files referenced in notes. Best to see if the prior ones fit first.
+Projects are orgnanized by year, week, and a 3-digit code: "{yy}wk{ww}-pr{NNN}". This is
+also the commit prefix to be used for them, so that their commit history can be tracked
+in this multi-project repository.
 
 # Contributing
 
@@ -64,6 +53,6 @@ Please feel free to contact me by opening an issue ticket or emailing lanhikarix
 
 # License
 
-This work is licensed under the [MIT license](https://opensource.org/licenses/mit-license.php) © 2025 Mohammed Alzakariya.
+This work is licensed under the [MIT license](https://opensource.org/licenses/mit-license.php) © 2026 Mohammed Alzakariya.
 
 
